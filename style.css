@@ -1,0 +1,90 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('bg.png') no-repeat center center/cover;
+    min-height: 100vh;
+}
+
+/* Overlay transparan */
+.overlay {
+    background: rgba(0,0,0,0.3);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Konten */
+.content {
+    text-align: center;
+    color: white;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Judul */
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: serif;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Tombol link */
+.links a {
+    display: block;
+    background: white;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: transform 0.2s ease;
+}
+
+.links a:hover {
+    transform: scale(1.03);
+}
+
+/* Sosial media */
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    color: white;
+    font-size: 22px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social a:hover {
+    color: #ffd700;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px auto; /* center dan kasih jarak bawah */
+    width: 120px; /* ukuran logo */
+    height: auto;
+    border-radius: 50%; /* kalau mau bulat */
+    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.2); /* efek bayangan */
+}
